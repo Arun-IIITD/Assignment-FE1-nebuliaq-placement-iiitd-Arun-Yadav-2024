@@ -1,0 +1,66 @@
+/* Filter Input Styles */
+.filter-input {
+    margin-bottom: 20px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px; /* Optional: limits the width of the input */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Wrapper Styles */
+.MetricsTable-wrapper {
+    max-height: 500px; /* Adjust as needed */
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styles */
+.MetricsTable {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.MetricsTable th, .MetricsTable td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd; /* Adds border to cells */
+}
+
+.MetricsTable th {
+    background-color: #4CAF50; /* Green header */
+    color: white;
+    text-transform: uppercase;
+    
+    top: 0;
+}
+
+.MetricsTable tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray for alternating rows */
+}
+
+.MetricsTable tr:hover {
+    background-color: #f1f1f1; /* Slightly darker gray on hover */
+}
+
+/* Error Class Styles */
+.error-low {
+    color: green;
+    font-weight: bold;
+}
+
+.error-medium {
+    color: orange;
+    font-weight: bold;
+}
+
+.error-high {
+    color: red;
+    font-weight: bold;
+}
